@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "FrizQuadrataC";
+    src: url(FrizQuadrataC.otf);
+}
+body {
+    background: black;
+}
+body * {
+    padding: 0;
+    margin: 0;
+}
+#wrap {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    max-width: 920px;
+    width: 100%;
+    border: 1px solid #302e2e;
+}
+#wrap header {
+    background: #111110;
+    padding: 15px 10px 5px;
+}
+#wrap h1 {
+    color: #cec59f;
+    font-size: 23.4px;
+    text-shadow: 0px 0px 2px #ac9c5b;
+    font-family: "FrizQuadrataC", Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+#wrap .container>section {
+    background: rgb(26, 27, 27);
+}
+main {
+    overflow: hidden;
+    min-height: 205px;
+    width: 675px;
+    color: rgb(163, 141, 109);
+    padding: 7px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+main img {
+    width: 100%;
+}
+#wrap aside {
+    width: 275px;
+}
+
+
+/* Классы */
+.link {
+    color: #0197f4;
+    text-decoration: underline;
+}
